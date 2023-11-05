@@ -57,6 +57,11 @@ define( 'SECURE_AUTH_SALT', 'Lu4R[uB8g2yvqR0|;=1CdHlB,LMh3;h+}!]jtdbFx{8)8`PpRr5
 define( 'LOGGED_IN_SALT',   'uQ ^vk*rH(h0m/K}]9[fT2-k+4}b`8uB3S6p3eX0lB102a[Ee1)qW`Ec/t7&}Y[f' );
 define( 'NONCE_SALT',       '/ih|2Hw=#Rq{p#L:akx/g]kw>8_`US:<YLL!7BjV?} L3U4@5PaC7w{vh@yS[;8(' );
 
+	@ini_set( 'upload_max_filesize' , '128M' );
+@ini_set( 'post_max_size', '128M');
+@ini_set( 'memory_limit', '256M' );
+@ini_set( 'max_execution_time', '300' );
+@ini_set( 'max_input_time', '300' );
 /**#@-*/
 
 /**
