@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'olegs_db' );
+define( 'DB_NAME', 'test_db' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
